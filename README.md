@@ -23,4 +23,4 @@ Run `npm test` to execute the tests locally.
 ## Test report and CI
 
 This project uses GitHub Actions to run the tests and generate a test report. The test report is available in the
-Github Actions tab and on a GitHub Pages site.
+Github Actions tab and on a [Github Pages site](https://gutoslv.github.io/sora-union-take-home/).
