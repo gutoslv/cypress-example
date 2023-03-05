@@ -1,0 +1,39 @@
+{
+  "root": true,
+  "extends": [
+    "plugin:cypress/recommended",
+    "plugin:chai-friendly/recommended",
+    "plugin:prettier/recommended",
+    "prettier",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "env": {
+    "cypress/globals": true,
+    "jest": false,
+    "mocha": true,
+    "node": true
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {},
+      {
+        "usePrettierrc": true
+      }
+    ],
+    "@typescript-eslint/no-namespace": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ]
+      }
+    }
+  }
+}
