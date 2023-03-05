@@ -5,6 +5,8 @@ on:
       - main
 jobs:
   cypress-run:
+    permissions:
+      contents: write
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
@@ -27,8 +29,6 @@ jobs:
 
       - name: Deploy report page
         uses: peaceiris/actions-gh-pages@v3
-        permissions:
-          contents: write
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
