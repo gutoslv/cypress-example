@@ -12,6 +12,7 @@
 ## Expected results
 - User is logged in
 - User is redirected to the appointment page
+- User sees the appointment page
 
 # Test case 2: Login with invalid credentials
 
