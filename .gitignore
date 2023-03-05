@@ -105,3 +105,13 @@ dist
 
 # IDE
 .idea
+
+# Cypress
+cypress/downloads
+cypress/videos
+cypress/screenshots
+
+# Reports
+index.json
+cypress/results
+public
