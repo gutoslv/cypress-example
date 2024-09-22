@@ -1,5 +1,5 @@
 {
-  "name": "sora-union-take-home",
+  "name": "cypress-example",
   "version": "1.0.0",
   "description": "Suppose you are a part of the QA team that ensures high quality software releases for the [Health Service](https://katalon-demo-cura.herokuapp.com/) application. Also, assume that you have a superuser or admin role access for the application and can: * Create or remove users * Generate events * Modify application settings",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gutoslv/sora-union-take-home.git"
+    "url": "git+https://github.com/gutoslv/cypress-example.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gutoslv/sora-union-take-home/issues"
+    "url": "https://github.com/gutoslv/cypress-example/issues"
   },
-  "homepage": "https://github.com/gutoslv/sora-union-take-home#readme",
+  "homepage": "https://github.com/gutoslv/cypress-example#readme",
   "devDependencies": {
     "@testing-library/cypress": "^9.0.0",
     "@types/mochawesome": "^6.2.1",
