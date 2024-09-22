@@ -1,4 +1,4 @@
-# Sora Union QA Automation take home challenge
+# Cypress example
 
 ## Introduction
 
