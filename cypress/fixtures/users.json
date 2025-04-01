@@ -1,7 +1,7 @@
 {
   "valid": {
     "username": "John Doe",
-    "password": "ThisIsNotAPassword"
+    "password": "NotThisIsNotAPassword"
   },
   "invalid": {
     "username": "Not John Doe",
