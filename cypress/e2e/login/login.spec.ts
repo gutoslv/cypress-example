@@ -18,7 +18,6 @@ describe('Login Page', function () {
     cy.loginUI(this.users.valid);
 
     //wait for the login request to finish
-
     cy.wait('@login');
 
     //verify if the user is redirected to the appointment page

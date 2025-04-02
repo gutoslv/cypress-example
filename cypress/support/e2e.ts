@@ -4,6 +4,7 @@ declare global {
   namespace Cypress {
     interface Chainable {
       /**
+       * 
        * Custom command to log in to the application using the UI
        * @param user - user object to log in
        * @param user.username - username to log in
