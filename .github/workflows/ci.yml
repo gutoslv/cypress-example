@@ -1,8 +1,5 @@
 name: cypress-e2e
-on:
-  push:
-    branches:
-      - main
+on: push
 jobs:
   cypress-run:
     permissions:
